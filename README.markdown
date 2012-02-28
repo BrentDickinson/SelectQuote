@@ -1,6 +1,6 @@
 #Sublime Text 2 Plugin: selectQuote
 
-This plugin will select the quoted contents of a line and turns them into a snippet.  You can then tab through the matches to edit the quoted contents.
+This plugin will select the quoted contents of a line and turn them into a snippet.  You can then tab through the matches to edit the quoted contents.
 
 ##Key Bindings
 Default keybinding is command + '
