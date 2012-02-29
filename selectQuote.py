@@ -15,7 +15,7 @@ class selectquoteCommand(sublime_plugin.TextCommand):
                 lregion = sublime.Region(line.a,line.b)
 
                 contents = line_contents.replace("$","\$");
-                contents=re.sub("([\"'])(.+?)\\1",self.createStop,contents,re.M)
+                contents=re.sub("([\"'])(.*?)\\1",self.createStop,contents,re.M)
                 self.view.sel().clear()
                 self.view.sel().add(lregion)
 
